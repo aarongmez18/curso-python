@@ -17,7 +17,7 @@ print(4)
 print(40.2)
 
 # Boolean LA PRIMERA EN MAYÚSCULAS
-False
-True
+false = False
+true = True
 
 
