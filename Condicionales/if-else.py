@@ -1,15 +1,18 @@
 # Primer bloque
+iguales = "Son Iguales"
+no_iguales = "No son iguales"
+
 if 1 == 2:
-    print("Son iguales")  # Esto NO se ejecuta
+    print(iguales)  # Esto NO se ejecuta
 else:
-    print("No son iguales")  # Esto SÍ se ejecuta
+    print(no_iguales)  # Esto SÍ se ejecuta
 
 print("No forma parte de ninguna condición")
 
 # Segundo bloque
 if 3 == 2:
-    print("Son iguales")  # Esto NO se ejecuta
+    print(iguales)  # Esto NO se ejecuta
 elif 2 == 2:
-    print("Son iguales")  # Esto SÍ se ejecuta
+    print(iguales)  # Esto SÍ se ejecuta
 else:
-    print("No son iguales")
+    print(no_iguales)

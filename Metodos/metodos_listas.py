@@ -41,7 +41,7 @@ mi_lista.sort()  # [10, 10, 20, 20, 30, 40]
 mi_lista.reverse()  # [40, 30, 20, 20, 10, 10]
 
 # COPY - Crea una copia de la lista
-copia_lista = mi_lista.copy()  # copia_lista = [40, 30, 20, 20, 10, 10]
+copia_lista = mi_lista.copy() 
 
 # LEN - Devuelve la longitud de la lista (no es método, es función)
 longitud = len(mi_lista)  # 6
